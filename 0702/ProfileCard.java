@@ -1,11 +1,14 @@
 public class ProfileCard {
     public static void main(String[] args) {
-        // 輸出Welcome
-        System.out.println("Welcome");
+        String name = "Amy";
+        String Department = "Information Management";
+        String Course = "Programming";
+        int age = 20;
 
-        /*
-         * 可以將字串print出來
-         */
-        System.out.println("Start learning Java.");
+        System.out.println("=== Profile ===");
+        System.out.println("Name: " + name);
+        System.out.println("Department: "+ Department);
+        System.out.println("Favorite Course: "+ Course);
+
     }
 }
